@@ -15,6 +15,7 @@ copy_file "config/initializers/draper.rb"
 copy_file "config/initializers/generators.rb"
 copy_file "config/initializers/inflections.rb", force: true
 copy_file "config/initializers/paper_trail.rb"
+copy_file "config/initializers/rollbar.rb"
 copy_file "config/initializers/rotate_log.rb"
 copy_file "config/initializers/secret_token.rb"
 copy_file "config/initializers/secure_headers.rb"
