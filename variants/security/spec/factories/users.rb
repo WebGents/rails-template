@@ -1,9 +1,5 @@
 FactoryGirl.define do
   factory :user do
-    transient do
-      owns_business nil
-    end
-
     person
     password { Faker::Internet.password(20) }
     email { person.email }

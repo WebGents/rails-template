@@ -1,6 +1,5 @@
 class PersonDecorator < ApplicationDecorator
   delegate_all
-  decorates_association :business
 
   def primary_description
     object.name
